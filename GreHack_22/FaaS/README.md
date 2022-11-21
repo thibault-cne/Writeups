@@ -6,7 +6,9 @@ The FaaS challenge was in the web category. They were no real competence needed 
 
 ![FaaS html page](./static/page.png "FaaS html page")
 
-The second thing I thought with the given exemple was that I could maybe open a file on the server using the `/compute_file` entrypoint.
+The first thing I thought with the given exemple was that I could maybe open a file on the server using the /compute_file entrypoint.
+
+I started to create a rust project to compile it into WASM. That's when I started to have troubles first because I didn't knew anything about rust and also because I didn't managed to compile into WASM. So I created a cargo project and made a first rust program to display a Hello World (classic).
 
 
 ```rust
@@ -27,6 +29,7 @@ fn main() {
 	file.read_to_string(&mut data)
 		.expect("Rien");
 	println!("{}", data);
+}
 ```
 
 This script should work but I ran into some issues as the server panic and I still don't know really why. Maybe because the `File::open` function needs some dependancies not included inside the wasm binary.
