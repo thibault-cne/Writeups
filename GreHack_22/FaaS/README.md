@@ -1,7 +1,5 @@
 # FaaS
 
-----
-
 Category: Web  
 Points: 150  
 Description: 
