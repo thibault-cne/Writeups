@@ -6,9 +6,8 @@ The FaaS challenge was in the web category. They were no real competence needed 
 
 ![FaaS html page](./static/page.png "FaaS html page")
 
-The first thing I thought with the given exemple was that I could maybe open a file on the server using the `/compute_file` entrypoint.
+The second thing I thought with the given exemple was that I could maybe open a file on the server using the `/compute_file` entrypoint.
 
-I started to create a **rust** project to compile it into WASM. That's when I started to have troubles first because I didn't knew anything about rust and also because I didn't managed to compile into WASM. So I created a **cargo** project and made a first rust program to display a `Hello World` (classic).
 
 ```rust
 fn main() {
