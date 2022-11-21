@@ -1,5 +1,9 @@
 # FaaS
 
+Category: Web
+Points: 150
+Description: We just rolled out our FaaS service. We expect to start a new era in microservices architecture with this work.
+
 This week-end I participate to the GreHack 2022 event. It was my first presential CTF, so it's my first writeup.
 
 The FaaS challenge was in the web category. They were no real competence needed as WebAssembly (WASM) was kind of explained in the challenge.
