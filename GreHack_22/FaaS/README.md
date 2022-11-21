@@ -1,9 +1,7 @@
 # FaaS
 
-Category: Web
-
-Points: 150
-
+Category: Web  
+Points: 150  
 Description: 
 > We just rolled out our FaaS service. We expect to start a new era in microservices architecture with this work.
 
